@@ -2,9 +2,23 @@ h2{
     color: red;
 }
 .highlight{
-    border: solid;
+    border: 5px solid red;
+    border-radius: 30% 10px 30px 50px;
 }
 #profile{
     border: solid;
     border-color: blue;
 }
+p{color: black;}
+p{color: brown;}
+p{border: solid; border-color: blue;}
+.mygrid{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 20px 30px;
+}
+#first{background-color: red;}
+#second{background-color: yellow;}
+#third{background-color: green;}
+#fourth{background-color: navy;}
+#fifth{background-color: beige;}
