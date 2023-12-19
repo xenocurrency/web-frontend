@@ -6,6 +6,17 @@
         <script src="https://kit.fontawesome.com/4c7ebdd4a9.js" crossorigin="anonymous"></script>
     </head>
     <body>
+        <input type="button" value="버튼"/>
+        <script>
+            console.log("test")
+            let button = document.querySelector("input")
+            button.addEventListener("click",
+                function(e){
+                    alert("clicked!")
+                }
+            )
+        </script>
+        
         <div>
             <div id="top">
                 <img src="image/logo.png"/>
