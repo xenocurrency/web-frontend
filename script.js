@@ -1,12 +1,12 @@
-console.log("test")
-let button = document.querySelector("input")
-button.addEventListener("click",
+document.addEventListener("DOMContentLoaded",
     function(e){
-        alert("clicked!")
+        let configID = document.querySelector("#id i")
+        let idText = document.querySelector("#id span")
+
+        configID.addEventListener("click",
+            function(e){
+                idText.textContent = prompt("새로운 아이디를 입력하세요.")
+            }
+        )
     }
 )
-
-//<p> 태그에서 인라인 이벤트로 호출할 함수를 지정합니다.
-function hi(){
-    alert("hi")
-}
