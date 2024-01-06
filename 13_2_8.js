@@ -19,6 +19,7 @@ document.addEventListener("DOMContentLoaded",
                 editNameField.style.display = "none"
                 nameEditButton.style.display = "inline"
             }
-    )
+        )
+
     }
 )
